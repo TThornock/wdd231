@@ -1,14 +1,17 @@
 :root {
     --primary-color: #003366;
-    --secondary-color: #0059b3;
-    --accent1-color: #e6ffe6;
-    --accent2-color: #ffe6e6;
+    --secondary-color: #014c97;
+    --accent1-color: #e2e8dfea;
+    --accent2-color: #f1d8c78e;
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Kantumruy Pro", sans-serif;
 }
 
-
 header {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,17 +19,44 @@ header {
     position: relative;
 }
 
+.logo{
+    margin: 2px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color);
+    width: 44px;
+    height: 44px;
+}
+
+.logo_ajust{
+    padding-top: 3px;
+}
+
+.logo-head{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.site-name{
+    margin: 5px;
+    align-content: center;
+}
+
+
 nav {
     width: 100%;
+    background-color: var(--secondary-color);
+    text-align: center;
 }
 
 .navigation {
     list-style: none;
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 0;
+    padding: 1rem;
+    margin: 0;
 }
 
 
@@ -40,12 +70,17 @@ nav {
 }
 
 .navigation a {
-    text-decoration: none;
-    font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 4px;
 }
 
 .navigation a:hover{
-    font-weight: 700;
+    color: #FFC0CB;
+    font-weight: 800;
     font-style: italic;
 }
 
@@ -57,25 +92,106 @@ nav {
     cursor: pointer;
     width: 30px;
     height: 30px;
-    position: relative;
+    position: static;
 }
 
 #menu::before {
+    color: white;
     content: "☰";
     font-size: 1.5rem;
 }
-
 
 #menu.open::before {
     content: "❌";
 }
 
 
+body {
+    font-family: var(--body-font);
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+
+section{
+    margin: 20px;
+}
+
+section h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.about_me{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.student_pic, .about_me{
+    background-color: #dcdcdc;
+}
+
+.student_pic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.student_pic img{
+    padding: 10px;
+    align-self: center;
+    width: 70%;
+    height: auto;
+}
 
 
 .site-name{
     font-size: larger;
+}
+
+.filters{
+    text-align: center;
+}
+
+.filters button{
+    background-color: var(--primary-color);
+    color: white;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.class_button{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.course-box{
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+}
+
+.course-box.completed {
+    width: 100%;
+    height: 30px;
+    align-content: center; 
+    background-color: var(--accent1-color);
+}
+
+.course-box.incomplete {
+    width: 100%;
+    height: 30px;
+    align-content: center;
+    background-color: var(--accent2-color);
 }
 
 .links{
@@ -89,7 +205,7 @@ footer a{
 }
 
 footer img{
-    width: 75px;
+    width: 65px;
     height: auto;
 }
 
@@ -99,6 +215,7 @@ footer p{
     padding: 2px;
 }
 
-.footer-info{
-    background-color: var();
+.footer-info {
+    background-color: var(--primary-color);
+    color: white;
 }
