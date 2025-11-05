@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #0059b3;
+    --accent1-color: #e6ffe6;
+    --accent2-color: #ffe6e6;
+    --heading-font: "Merriweather Sans", sans-serif;
+    --body-font: "Kantumruy Pro", sans-serif;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+
+.navigation.open{
+    display: flex;
+}
+
+
+.navigation li {
+    margin-bottom: 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation a:hover{
+    font-weight: 700;
+    font-style: italic;
+}
+
+#menu {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 1.5rem;
+}
+
+
+#menu.open::before {
+    content: "❌";
+}
+
+
+
+
+
+.site-name{
+    font-size: larger;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer a{
+    margin: 10px;
+}
+
+footer img{
+    width: 75px;
+    height: auto;
+}
+
+footer p{
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.footer-info{
+    background-color: var();
+}

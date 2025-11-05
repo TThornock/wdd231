@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle cx="150" cy="100" r="60" fill="#0A1A2F" />
+  <polygon points="130,80 170,80 150,65" fill="#ffffff" />
+  <rect x="135" y="85" width="6" height="30" fill="#ffffff" />
+  <rect x="147" y="85" width="6" height="30" fill="#ffffff" />
+  <rect x="159" y="85" width="6" height="30" fill="#ffffff" />
+  <text x="150" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#0A1A2F">PERSONAL</text>
+  <text x="150" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#0A1A2F">CHAMBER</text>
+  <text x="150" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#0A1A2F">OF COMMERCE</text>
+</svg>

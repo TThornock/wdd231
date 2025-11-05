@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerse Home Page</title>
+    <meta name="description" content="This is a home page for my chamber of commerce project">
+    <meta name="author" content="Trevor Thornock">
+    <link rel="stylesheet" href="styles/base-test.css">
+    <link rel="stylesheet" href="styles/base-test-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-head">
+            <div class="logo_ajust">
+                <img src="images/logo.svg" alt="Site Logo" class="logo">
+            </div>
+            <span class="site-name">Trevor Thornock</span>
+        </div>
+        <button type="button" id="menu" aria-label="navbutton"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="final.html">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="info">
+            <section class="about_me">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta id unde beatae eius. Perspiciatis consectetur aliquid hic molestias veniam ex? Exercitationem architecto totam veniam quisquam ipsum, mollitia error maxime? Ipsum!</p>
+            </section>
+
+            <section class="student_pic">
+                <h2>Student Photo</h2>
+                <img src="images/profile.jpg" alt="Student Photo of me">
+            </section>
+        </div>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <div class="class_button">
+                    <button id="all-btn">All</button>
+                    <button id="wdd-btn">WDD</button>
+                    <button id="cse-btn">CSE</button>
+                </div>
+
+                <div id="courses-set" class="courses"></div>
+
+
+                <div class="credits">
+                    <p>The total number of course credits listed above is <span id="total-credits">0</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="https://github.com/TThornock">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/trevor-thornock-25363a337/">
+                <img src="images/linkedin.png" alt="Linked In">
+            </a>
+        </div>
+        <div class="footer-info">
+            <p>©<span id="currentyear"></span>| Trevor Thornock | Utah, USA</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
