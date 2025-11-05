@@ -40,6 +40,7 @@ header {
 }
 
 .site-name{
+    font-size: larger;
     margin: 5px;
     align-content: center;
 }
@@ -149,9 +150,7 @@ section h2{
 }
 
 
-.site-name{
-    font-size: larger;
-}
+
 
 .filters{
     text-align: center;
