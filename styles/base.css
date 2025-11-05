@@ -11,7 +11,7 @@ header {
     width: 100%;
     height: auto;
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header {
 
 .logo{
     margin: 2px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 15px;
     border: 1px solid var(--primary-color);
     width: 44px;
@@ -71,7 +71,7 @@ nav {
 }
 
 .navigation a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   padding: 0.5rem;
@@ -97,7 +97,7 @@ nav {
 }
 
 #menu::before {
-    color: white;
+    color: #ffffff;
     content: "☰";
     font-size: 1.5rem;
 }
@@ -121,7 +121,7 @@ section{
 section h2{
     margin: 0;
     text-align: center;
-    color: white;
+    color: #ffffff;
     background-color: var(--primary-color);
 }
 
@@ -156,7 +156,7 @@ section h2{
 
 .filters button{
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     width: 125px;
     height: 30px;
     border-radius: 5px;
@@ -171,7 +171,7 @@ section h2{
 }
 
 .course-box{
-    border: 1px solid black;
+    border: 1px solid #000000;
     align-self: center;
     justify-self: center;
     margin: 10px;
@@ -214,5 +214,5 @@ footer p{
 
 .footer-info {
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
 }
