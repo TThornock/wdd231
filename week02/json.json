@@ -1,0 +1,37 @@
+{
+    "family_name": "Test",
+    "move_in_date": "2025-12-06",
+    "family_number": 5,
+    "visted_by_bishoptic": true,
+    "family_members": [
+        {
+            "name": "First Test",
+            "gender": "Male",
+            "birthdate": "1990-04-24"
+        },
+
+        {
+            "name": "Second Test",
+            "gender": "Female",
+            "birthdate": "1993-06-20"
+        },
+
+        {
+            "name": "Third Test",
+            "gender": "Female",
+            "birthdate": "2012-09-15"
+        },
+
+        {
+            "name": "Forth Test",
+            "gender": "Male",
+            "birthdate": "2015-10-31"
+        },
+
+        {
+            "name": "Fith Test",
+            "gender": "Male",
+            "birthdate": "2017-11-09"
+        }
+    ]
+}
