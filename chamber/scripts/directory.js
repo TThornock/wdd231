@@ -74,7 +74,7 @@ function displayMembers(companies) {
             memberLevel.textContent = 'Member';
         } 
         
-        webUrl.setAttribute('herf', company.web_url);
+        webUrl.setAttribute('href', company.web_url);
         webUrl.textContent = company.web_url;
         webUrl.setAttribute('target', '_blank');
         
