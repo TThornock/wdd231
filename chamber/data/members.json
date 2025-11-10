@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "name": "Blue Peak Consulting",
+      "address": "101 Summit Way, Provo, UT 84604",
+      "phone_number": "801-555-0101",
+      "web_url": "https://bluepeak.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "3"
+    },
+    {
+      "name": "Civic Grove Media",
+      "address": "202 Civic Ln, Ogden, UT 84401",
+      "phone_number": "801-555-0202",
+      "web_url": "https://civicgrove.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "2"
+    },
+    {
+      "name": "Fork & Flame Eatery",
+      "address": "303 Main St, American Fork, UT 84003",
+      "phone_number": "801-555-0303",
+      "web_url": "https://forkflame.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "1"
+    },
+    {
+      "name": "Summit Ridge Outfitters",
+      "address": "404 Trailhead Rd, Logan, UT 84321",
+      "phone_number": "801-555-0404",
+      "web_url": "https://summitridge.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "2"
+    },
+    {
+      "name": "Pioneer Pathways",
+      "address": "505 Heritage Blvd, St. George, UT 84770",
+      "phone_number": "801-555-0505",
+      "web_url": "https://pioneerpath.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "1"
+    },
+    {
+      "name": "Golden Grove Goods",
+      "address": "606 Orchard Ave, Orem, UT 84057",
+      "phone_number": "801-555-0606",
+      "web_url": "https://goldengrove.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "3"
+    },
+    {
+      "name": "Silverline Studios",
+      "address": "707 Creative Ct, Salt Lake City, UT 84101",
+      "phone_number": "801-555-0707",
+      "web_url": "https://silverline.fake",
+      "icon_file": "common/images/generic_logo.png",
+      "member_level": "2"
+    }
+  ]
+}

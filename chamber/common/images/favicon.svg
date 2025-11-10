@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- White circular background -->
+  <circle cx="150" cy="150" r="140" fill="#ffffff" />
+
+  <!-- Navy emblem circle -->
+  <circle cx="150" cy="100" r="40" fill="#0A1A2F" />
+
+  <!-- Column pediment -->
+  <polygon points="130,80 170,80 150,65" fill="#ffffff" />
+
+  <!-- Column shafts -->
+  <rect x="135" y="85" width="6" height="30" fill="#ffffff" />
+  <rect x="147" y="85" width="6" height="30" fill="#ffffff" />
+  <rect x="159" y="85" width="6" height="30" fill="#ffffff" />
+
+  <!-- Text below emblem -->
+  <text x="150" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#0A1A2F">PERSONAL</text>
+  <text x="150" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#0A1A2F">CHAMBER</text>
+  <text x="150" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#0A1A2F">OF COMMERCE</text>
+</svg>

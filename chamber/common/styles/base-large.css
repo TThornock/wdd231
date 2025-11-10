@@ -1,0 +1,43 @@
+@media screen and (min-width: 600px){
+        
+    #menu{
+        display: none;
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+    .navigation{
+        width: 94.5%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navigation li{
+        padding-top: 15px;
+        align-self: center;
+    }
+
+    section {
+	    margin: 0.5rem;
+	    padding: 0.5rem;
+	    background-color: var(--background-color);
+	    border: 1px solid ;
+        box-shadow: 0 2px 3px var(--primary-color);
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+    }
+
+    .member-card img {
+        width: 100px;
+        height: auto;
+        border-radius: 4px;
+        flex-shrink: 0;
+    }
+
+}

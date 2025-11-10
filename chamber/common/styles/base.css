@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #014c97;
+    --accent1-color: #e2e8dfea;
+    --background-color: #f1d8c78e;
+    --heading-font: "Merriweather Sans", sans-serif;
+    --body-font: "Kantumruy Pro", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.logo{
+    margin: 2px;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color);
+    width: 44px;
+    height: 44px;
+}
+
+.logo_ajust{
+    padding-top: 3px;
+}
+
+.logo-head{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.site-name{
+    font-size: larger;
+    margin: 5px;
+    align-content: center;
+}
+
+
+nav {
+    width: 100%;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0;
+}
+
+
+.navigation.open{
+    display: flex;
+}
+
+
+.navigation li {
+    margin-bottom: 1rem;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 4px;
+}
+
+.navigation a:hover{
+    color: #FFC0CB;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#menu {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: static;
+}
+
+#menu::before {
+    color: #ffffff;
+    content: "☰";
+    font-size: 1.5rem;
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+h1{
+    text-align: center;
+}
+
+
+#cards {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+    
+    
+.selector button{
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    width: 40%;
+    height: auto;
+}
+
+
+#cards.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cards.list-view .member-card img{
+    display: none;
+}
+
+#cards.grid-view {
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+
+section {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: var(--background-color);
+	border: 1px solid var(--primary-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+footer{
+    padding-top: 5px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    margin: 10px;
+}
+
+footer img{
+    width: 60px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+footer p{
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.footer-info {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}

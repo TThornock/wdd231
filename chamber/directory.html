@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce directory page with info on members.">
+    <meta name="author" content="Trevor Thornock">
+    <meta property="og:title" content="Chamber of Commerce Directory | Trevor Thornock">
+    <meta property="og:description" content="Explore local businesses in the Chamber of Commerce UT directory."> 
+    <meta property="og:image" content="common/images/favicon.svg">
+    <meta property="og:url" content="https://tthornock.github.io/chamber/directory.html">
+    <title>Chamber of Commerce Directory | Trevor Thornock | WDD231</title>
+    <link rel="stylesheet" href="common/styles/base.css">
+    <link rel="stylesheet" href="common/styles/base-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="common/images/favicon.svg" type="images/">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <script src="common/scripts/directory.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-head">
+            <div class="logo_ajust">
+                <img src="common/images/favicon.svg" alt="Site Logo" class="logo">
+            </div>
+            <span class="site-name">Chamber of Commerce UT</span>
+        </div>
+        <button type="button" id="menu" aria-label="navbutton"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Directory of Members</h1>
+
+        <section class="selector">
+            <button type="button" id="grid-view" aria-label="grid_selctor">Grid View</button>
+            <button type="button" id="list-view" aria-label="list_selctor">List View</button>
+        </section>
+        <div id="cards">
+
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="https://github.com/TThornock">
+                <img src="common/images/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/trevor-thornock-25363a337/">
+                <img src="common/images/linkedin.png" alt="Linked In">
+            </a>
+        </div>
+        <div class="footer-info">
+            <p>©<span id="currentyear"></span>| Trevor Thornock | Chamber of Commerce</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
