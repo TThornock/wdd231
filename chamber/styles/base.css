@@ -19,7 +19,7 @@ header {
     position: relative;
 }
 
-.logo{
+.logo {
     margin: 2px;
     border-radius: 15px;
     border: 1px solid var(--primary-color);
@@ -27,18 +27,18 @@ header {
     height: 44px;
 }
 
-.logo_ajust{
+.logo_ajust {
     padding-top: 3px;
 }
 
-.logo-head{
+.logo-head {
     width: 40%;
     display: flex;
     justify-content: space-around;
     align-content: center;
 }
 
-.site-name{
+.site-name {
     font-size: larger;
     margin: 5px;
     align-content: center;
@@ -60,7 +60,7 @@ nav {
 }
 
 
-.navigation.open{
+.navigation.open {
     display: flex;
 }
 
@@ -70,15 +70,15 @@ nav {
 }
 
 .navigation a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 0.5rem;
-  display: block;
-  border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 4px;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #FFC0CB;
     font-weight: 800;
     font-style: italic;
@@ -105,26 +105,26 @@ nav {
     content: "❌";
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
 
 #cards {
-  display: grid;
-  gap: 1rem;
-  padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-.selector{
+.selector {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
 }
-    
-    
-.selector button{
+
+
+.selector button {
     background-color: var(--secondary-color);
     color: #ffffff;
     width: 43%;
@@ -138,29 +138,29 @@ h1{
 }
 
 
-#cards.list-view .member-card img{
+#cards.list-view .member-card img {
     display: none;
 }
 
 #cards.grid-view {
-	display: grid;
-	grid-gap: 0.5rem;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 
 section {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	background-color: var(--background-color);
-	border: 1px solid var(--primary-color);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-footer{
+footer {
     padding-top: 5px;
     background-color: var(--primary-color);
     color: #ffffff;
@@ -169,24 +169,24 @@ footer{
 }
 
 
-.links{
+.links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-footer a{
+footer a {
     margin: 10px;
 }
 
-footer img{
+footer img {
     width: 60px;
     height: auto;
     background-color: #ffffff;
     border-radius: 10px;
 }
 
-footer p{
+footer p {
     text-align: center;
     margin: 5px;
     padding: 2px;
