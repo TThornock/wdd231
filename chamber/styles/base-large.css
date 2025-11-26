@@ -40,4 +40,17 @@
         flex-shrink: 0;
     }
 
+    .join_main{
+        display: grid;
+        grid-template-rows: .5fr 5fr;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .join_main h1{
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    
+
 }

@@ -1,24 +1,3 @@
-const year = document.querySelector("#currentyear");
-
-const today = new Date();
-
-year.innerHTML = `<span class="currentyear">${today.getFullYear()}</span>`;
-
-
-let oLastModif = new Date(document.lastModified);
-
-
-const span = document.getElementById("lastModified");
-span.textContent = oLastModif;
-
-const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
-
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
-});
-
 
 const gridSelctor = document.querySelector('#grid-view');
 const listSelctor = document.querySelector('#list-view');
@@ -66,13 +45,13 @@ function displayMembers(companies) {
         
         if (company.member_level === "3") {
             memberLevel.textContent = 'Member status: GOLD';
-        } 
+        }
         else if (company.member_level === "2") {
             memberLevel.textContent = 'Member status: SILVER';
-        } 
-        else    {
+        }
+        else {
             memberLevel.textContent = 'Member';
-        } 
+        }
         
         webUrl.setAttribute('href', company.web_url);
         webUrl.textContent = company.web_url;
@@ -95,4 +74,4 @@ function displayMembers(companies) {
 
         cards.appendChild(card);
     });
-}
+};

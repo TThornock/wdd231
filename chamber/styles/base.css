@@ -196,3 +196,75 @@ footer p {
     background-color: var(--primary-color);
     color: #ffffff;
 }
+
+.form{
+    display: flex;
+    justify-content: left;
+}
+
+.form label{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+}
+
+.application{
+    display: flex;
+    width: 70%;
+    margin: 5px;
+    justify-self: center;
+}
+
+.model_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.model_section div{
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+    margin: 5px;
+    width: 90%;
+    outline: 2px solid var(--primary-color);
+    justify-items: center;
+}
+
+#openButton1, #openButton2, #openButton3, #openButton4{
+    margin: 5px;
+    display: flex;
+    justify-self: center;
+}
+
+#dialogBoxMember div{
+    text-align: center;
+    background-color: var(--background-color);
+    border-radius: 0;
+}
+
+.sub_details{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translate(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.model_section div{
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.model_section div:nth-child(1) { animation-delay: 0.1s; }
+.model_section div:nth-child(2) { animation-delay: 0.3s; }
+.model_section div:nth-child(3) { animation-delay: 0.5s; }
+.model_section div:nth-child(4) { animation-delay: 0.7s; }
+
