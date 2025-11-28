@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celiac Travel Log | Disney World Florida</title>
+    <meta name="author" content="Trevor Thornock">
+    <meta name="description" content="A page for showing examples from my own experiences in finding gluten free food in Disney World.">
+    <link rel="stylesheet" href="styles/side.css">
+    <link rel="stylesheet" href="styles/side-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <script src="scripts/final.js" defer></script>
+    <script src="scripts/final-event.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Celiac Travel Log Logo">
+      </div>
+      <h1>Celiac Travel Log</h1>
+      <button name="navbutton" type="button" id="menu" aria-label="navbutton"></button>
+      <nav>
+        <ul class="navigation">
+          <li><a href="final-home.html">Home</a></li>
+          <li><a href="land-final.html">Disney Land</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <main>
+        <section class="intro">
+            <h2>Disney World Overview</h2>
+            <p>During my visit to Disney World in 2024, I found that most locations were exceptionally accommodating. 
+                Many of the restaurants I dined at provided a binder containing detailed information about which foods were safe for various allergies. 
+                Below, I will highlight a few noteworthy dining options from the parks.</p>
+        </section>
+        
+        <section class="park-1">
+            <h2>Hollywood Studios</h2>
+            <p class="info">California Adventure is a park I look forward to visiting for many reasons, the foremost being its Star Wars attractions.</p>
+            <picture><img src="images/drink.jpg" alt="star wars Oga's" loading="lazy"></picture>
+            <p class="exp">Galaxy`s Edge is the section of the park themed around Star Wars. The standout locations there were Oga`s Cantina and Ronto Roasters. 
+                Oga`s isn`t known for its food, but rather for its creatively themed beverages. The server was attentive and provided a binder so we could check which options were available for me. 
+                Ronto Roasters was a pleasant surprise, offering a gluten-free pita for their signature wrap.</p>
+        </section>
+        <section class="question-log">
+            <h2>Question or Recomendations Here</h2>
+            <textarea class="question-input" name="questioninput" id="questioninput" placeholder="Leave your questions or recomendations here"></textarea>
+            <p id="confirmessage" class="hidden">Thanks for the input!</p>
+
+            <div class="email-part">
+                <label for="email-input">Optional: Enter your email if you would like a response</label>
+                <input type="email" id="email-input" placeholder="youremail@example.com">
+            </div>
+            
+            <button class="submitbutton" id="submitquestion" aria-label="submitbutton">Send</button>
+        </section>
+        <section class="park-2">
+            <h2>Epcot</h2>
+            <p class="info">Epcot is a park dedicated to “traveling” the world and celebrating global culture through locations inspired by different countries.</p>
+            <picture><img src="images/epcot-ball.jpg" alt="Epcot ball" loading="lazy"></picture>
+            <p class="exp">Epcot offered a wide variety of excellent food and experiences. One standout was Tutto Italia. 
+                Although the selection was somewhat limited, they were able to prepare most pastas gluten-free, as well as a swordfish steak. 
+                Another notable restaurant was Spice Road, located in the Morocco part of the park, which served an incredible spiced lamb kefta.</p>
+        </section>
+    </main>
+  <footer>
+    <p>©<span id="currentyear"></span> | Trevor Thornock | Celiac Travels</p>
+  </footer>
+</body>
+</html>

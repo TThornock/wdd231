@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celiac Travel Log | Disney Land California</title>
+    <meta name="author" content="Trevor Thornock">
+    <meta name="description" content="A page for showing my expirences in the Disney Land parks in California.">
+    <link rel="stylesheet" href="styles/side.css">
+    <link rel="stylesheet" href="styles/side-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <script src="scripts/final.js" defer></script>
+    <script src="scripts/final-event.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Celiac Travel Log Logo">
+      </div>
+      <h1>Celiac Travel Log</h1>
+      <button name="navbutton" type="button" id="menu" aria-label="navbutton"></button>
+      <nav>
+        <ul class="navigation">
+          <li><a href="final-home.html">Home</a></li>
+          <li><a href="world-final.html">Disney World</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <main>
+        <section class="intro">
+            <h2>Disney Land</h2>
+            <p>I last visited the Disney Parks in California in August 2025, so some information may have changed since then. 
+              I have divided this page into sections covering the parks and Downtown Disney. 
+              I chose to do this because I believe Downtown Disney is an important part of the overall experience, 
+              and it is also home to several notable restaurants.</p>
+        </section>
+        
+        <section class="park-1">
+            <h2>In Disney Land Parks</h2>
+            <p class="info">Within the parks, I would note that suitable food options can sometimes be harder to find, but there are certainly a few standout choices.</p>
+            <picture><img src="images/pym-break.jpg" alt="Quantum Breakfast From Pym's Test Kitchen" loading="lazy"></picture>
+            <p class="exp">The locations I would recommend as reliable dining options are Pym`s Test Kitchen in Hollywood Studios, the Carnation Café in Magic Kingdom, and Café Orleans. 
+              My personal favorite was Pym`s, which offered the best gluten-free bread by far. Although the menu was somewhat limited, the available options were excellent. 
+              Unfortunately, I would suggest skipping the Star Wars themed restaurants, as they were not nearly as good as their counterparts in Florida.
+            </p>
+        </section>
+        <section class="question-log">
+            <h2 class="log-title">Question or Recomendations Here</h2>
+            <textarea class="question-input" name="questioninput" id="questioninput" placeholder="Leave your questions or recomendations here"></textarea>
+            <p id="confirmessage" class="hidden">Thanks for the input!</p>
+
+            <div>
+                <label for="email-input">Optional: Enter your email if you would like a response</label>
+                <input type="email" id="email-input" placeholder="youremail@example.com">
+            </div>
+            
+            <button class="submitbutton" id="submitquestion" aria-label="submitbutton">Send</button>
+        </section>
+        <section class="park-2">
+            <h2>Downtown Disney</h2>
+            <p class="info">Downtown Disney is the street nestled between the two California parks and is home to several gift shops, as well as a wide variety of restaurants and food stalls.</p>
+            <picture><img src="images/salad.jpg" alt="Salad from Jazz Kitchen Coastal" loading="lazy"></picture>
+            <p class="exp">During my visit to Downtown Disney, I did not get to explore a wide range of dining options, but one restaurant truly stood out is Jazz Kitchen Coastal. 
+              The staff were incredibly kind and attentive, going out of their way to help me find gluten-free choices. 
+              I ordered the gumbo, which is normally served with pasta, but they happily swapped it for rice—an easy 10/10 in my book. 
+              An option for those with a sweet tooth is Salt and Straw ice cream shop many of which are gluten-free or cater to other dietary needs.
+            </p>
+        </section>
+    </main>
+  <footer>
+    <p>©<span id="currentyear"></span> | Trevor Thornock | Celiac Travels</p>
+  </footer>
+</body>
+</html>
